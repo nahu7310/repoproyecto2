@@ -1,0 +1,76 @@
+@charset "UTF-8";
+* {
+  margin: 0%;
+}
+
+body {
+  background-color: black;
+}
+
+.barradenavegación {
+  background-color: orangered;
+  padding: 20px;
+}
+
+.jumbotronpaginadeinicio {
+  background-image: url("https://images.unsplash.com/photo-1461896836934-ffe607ba8211?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXRobGV0aWN8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60");
+  height: 350px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0%;
+  margin-bottom: 10px;
+}
+
+.titulopaginadeinicio {
+  color: white;
+}
+
+.esloganpaginadeinicio {
+  color: white;
+}
+
+.titulodenuevosingresos {
+  background-image: url("https://images.unsplash.com/photo-1635510239288-e03536e80ffd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.titulodenuevosingresos:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+
+.presentacióndenuevosingresos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.cartacamisetapsg {
+  width: 200px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.camisetapsg {
+  width: 200px;
+}
+/*# sourceMappingURL=estilos.css.map */
