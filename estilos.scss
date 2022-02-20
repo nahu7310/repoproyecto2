@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Oswald:wght@200&display=swap');
 *{
     margin: 0%;
 }
@@ -7,6 +8,12 @@ body{
 .barradenavegación{
     background-color: orangered;
     padding: 20px;
+    .menusdelinicio{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
 }
 .jumbotronpaginadeinicio{
     background-image: url("https://images.unsplash.com/photo-1461896836934-ffe607ba8211?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXRobGV0aWN8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60");
@@ -33,10 +40,12 @@ body{
     padding: 20px;
     align-items: center;
     align-content: center;
-    transition: 2s;
+    transition: 3s;
+    font-family: montserrat;
+    font-weight: bold;
 }
 .titulodenuevosingresos:hover{
-    transform: scale(1.03)
+    transform: scale(1.1)
 }
 .presentacióndenuevosingresos{
     display: flex;
@@ -47,12 +56,201 @@ body{
     justify-content: space-between;
 }
 .cartacamisetapsg{
-    width: 200px;
+    background-color: orangered;
+    width: 250px;
     box-sizing: border-box;
+    font-family: montserrat;
+    justify-content: center;
 }
-.camisetapsg{
-    width: 180px;
+.titulotarjetapsg{
+    font-weight: bolder;
+    color: black;
 }
-@media only screen and (max-width: 1070px){
-
+.botoncamisetapsg{
+    background-color: black;
+    color: white;
+}
+.botoncamisetapsg:hover{
+    background-color: white;
+    color: black;
+}
+.camisetapsg1{
+    
+    align-self: center;
+    padding-top: 3.5px;
+    width: 240px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    transition: 0.8s;
+    animation-name: deslizar;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.camisetapsg1:hover{
+    transition: 0.8s;
+    padding: 5px;
+}
+.cartaairforce{
+    background-color: orangered;
+    width: 250px;
+    box-sizing: border-box;
+    font-family: montserrat;
+    justify-content: center;
+    .airforcewhite{
+    align-self: center;
+    padding-top: 3.5px;
+    width: 240px;
+    height: 270px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    transition: 0.8s;
+    animation-name: deslizar;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    }
+    .airforcewhite:hover{
+        transition: 0.8s;
+        padding: 5px;
+    }
+    .titulotarjetaairforce{
+        font-weight: bolder;
+        color: black;
+    }
+    .botonzapasairforce{
+        background-color: black;
+        color: white;
+    }
+    .botonzapasairforce:hover{
+        background-color: white;
+        color: black;
+    }
+}
+.gorradeportivaadidas{
+    background-color: orangered;
+    width: 250px;
+    font-family: montserrat;
+    box-sizing: border-box;
+    .gorraadidas{
+        align-self: center;
+        padding-top: 3.5px;
+        width: 240px;
+        height: 269px;
+        transition: 0.8s;
+        border-radius: 5px;
+    }
+    .gorraadidas:hover{
+        transition: 0.8s;
+        padding: 5px;
+    }
+    .titulogorraadidas{
+        font-weight: bolder;
+        color: black;
+    }
+    .textogorraadidas{
+        font-weight: bolder;
+        color: black;
+    }
+    .botongorraadidas{
+        background-color: black;
+        color: white;
+    }
+    .botongorraadidas:hover{
+        background-color: white;
+        color: black;
+    }
+}
+.cartapalosdehockey{
+    background-color: orangered;
+    font-family: montserrat;
+    box-sizing: border-box;
+    width: 250px;
+    .imagenpalosdehockey{
+        align-self: center;
+        padding-top: 3.5px;
+        width:240px;
+        height:270px;
+        border-radius: 5px;
+        transition: 0.8s;
+        box-sizing: border-box;
+    }
+    .imagenpalosdehockey:hover{
+        transition: 0.8s;
+        padding: 4px;
+    }
+    .titulopalosdehockey{
+        font-weight: bolder;
+        color: black;
+    }
+    .textopalosdehockey{
+        font-weight: bolder;
+        color: black;
+    }
+    .botonpalosdehockey{
+        background-color: black;
+        color: white;
+    }
+    .botonpalosdehockey:hover{
+        background-color: white;
+        color: black;
+    }
+}
+.cartapelotaqatar{
+    background-color: orangered;
+    font-family: montserrat;
+    box-sizing: border-box;
+    width: 250px;
+    .imagenpelotaqatar{
+        align-self: center;
+        padding-top: 3.5px;
+        width:240px;
+        height:270px;
+        border-radius: 5px;
+        transition: 0.8s;
+        box-sizing: border-box;
+    }
+    .imagenpelotaqatar:hover{
+        transition: 0.8s;
+        padding: 4px;
+    }
+    .titulopelotaqatar{
+        color: rgb(0, 0, 0);
+        font-weight: bolder;
+    }
+    .botonpelotaqatar{
+        background-color: black;
+        color: white;
+    }
+    .botonpelotaqatar:hover{
+        background-color: white;
+        color: black;
+    }
+}
+footer{
+    background-image: url("https://images.unsplash.com/photo-1635510239288-e03536e80ffd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+    background-position: center;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    padding: 20px;
+    align-items: center;
+    align-content: center;
+    transition: 8s;
+    animation-duration:7s;
+    animation-iteration-count: infinite;
+    .titulodelfooter{
+            font-family: montserrat;
+            font-weight: bold;
+    }
+    .subtitulodelfooter{
+            font-family: montserrat;
+            font-weight: bold;
+    }
+    .secciónfooter{
+        padding-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
 }
