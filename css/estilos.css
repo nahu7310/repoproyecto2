@@ -49,6 +49,7 @@ body {
 
 .presentacióndenuevosingresos {
   display: flex;
+  flex-wrap: wrap;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 10px;
@@ -61,7 +62,7 @@ body {
 }
 
 .camisetapsg {
-  width: 200px;
+  width: 180px;
 }
 
 /*# sourceMappingURL=estilos.css.map */
