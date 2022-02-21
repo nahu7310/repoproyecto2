@@ -288,6 +288,11 @@ footer .secciónfooter {
   background-repeat: no-repeat;
   background-size: cover;
   grid-column: 1/2;
+  transition: transform 2s;
+}
+.cartelerademarcas .marcaadidas:hover {
+  transition: 2s;
+  transform: scale(1.1);
 }
 .cartelerademarcas .marcanike {
   border: 2px solid black;
@@ -296,6 +301,11 @@ footer .secciónfooter {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  transition: transform 2s;
+}
+.cartelerademarcas .marcanike:hover {
+  transition: 2s;
+  transform: scale(1.1);
 }
 .cartelerademarcas .marcapuma {
   border: 2px solid black;
@@ -304,6 +314,11 @@ footer .secciónfooter {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  transition: transform 2s;
+}
+.cartelerademarcas .marcapuma:hover {
+  transition: 2s;
+  transform: scale(1.1);
 }
 .cartelerademarcas .marcanewbalance {
   border: 2px solid black;
@@ -312,6 +327,11 @@ footer .secciónfooter {
   background-repeat: no-repeat;
   background-size: cover;
   grid-column: 4/5;
+  transition: transform 2s;
+}
+.cartelerademarcas .marcanewbalance:hover {
+  transition: 2s;
+  transform: scale(1.1);
 }
 
 /*# sourceMappingURL=estilos.css.map */

@@ -272,6 +272,11 @@ footer{
         background-repeat: no-repeat;
         background-size: cover;
         grid-column:1/2 ;
+        transition: transform 2s;
+    }
+    .marcaadidas:hover{
+        transition: 2s;
+        transform: scale(1.1);
     }
     .marcanike{
         border: 2px solid black;
@@ -280,6 +285,11 @@ footer{
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        transition: transform 2s;
+    }
+    .marcanike:hover{
+        transition: 2s;
+        transform: scale(1.1);
     }
     .marcapuma{
         border: 2px solid black;
@@ -288,6 +298,11 @@ footer{
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        transition: transform 2s;
+    }
+    .marcapuma:hover{
+        transition: 2s;
+        transform: scale(1.1);
     }
     .marcanewbalance{
         border: 2px solid black;
@@ -296,6 +311,11 @@ footer{
         background-repeat: no-repeat;
         background-size: cover;
         grid-column: 4/5;
+        transition: transform 2s;
+    }
+    .marcanewbalance:hover{
+        transition: 2s;
+        transform: scale(1.1);
     }
 }
 
