@@ -426,10 +426,7 @@ footer .secciónfooter {
 
 .fondoparaindumentaria {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  justify-items: center;
 }
 
 .cartapantalonadidasdeportivo {
@@ -437,7 +434,7 @@ footer .secciónfooter {
   width: 250px;
   box-sizing: border-box;
   font-family: montserrat;
-  align-content: center;
+  justify-content: center;
 }
 
 .cartaremeradeportivapuma {
@@ -463,8 +460,4 @@ footer .secciónfooter {
   padding: 4px;
 }
 
-.contacto {
-  font-family: montserrat;
-}
-
-/*# sourceMappingURL=estilos.css.map */
+/*# sourceMappingURL=estilos.css%7D.map */
