@@ -8,11 +8,11 @@ body {
   background-color: black;
 }
 
-.barradenavegación {
+.navegador {
   background-color: orangered;
   padding: 20px;
 }
-.barradenavegación .menusdelinicio {
+.navegador .menusdelinicio {
   display: flex;
   flex-direction: row;
   justify-content: center;

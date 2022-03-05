@@ -8,12 +8,12 @@ body {
   background-color: black;
 }
 
-.barradenavegación {
+.navegador {
   background-color: orangered;
   padding: 20px;
 }
 
-.barradenavegación .menusdelinicio {
+.navegador .menusdelinicio {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
