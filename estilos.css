@@ -24,6 +24,30 @@ body {
           align-items: center;
 }
 
+.barradenavegación .homeinicio:hover {
+  background-color: black;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.barradenavegación .shoesinicio:hover {
+  background-color: black;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.barradenavegación .dressinicio:hover {
+  background-color: black;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.barradenavegación .contactoinicio:hover {
+  background-color: black;
+  background-size: cover;
+  border-radius: 5px;
+}
+
 .jumbotronpaginadeinicio {
   background-image: url("https://images.unsplash.com/photo-1461896836934-ffe607ba8211?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXRobGV0aWN8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60");
   height: 350px;
@@ -31,7 +55,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0%;
-  margin-bottom: 10px;
 }
 
 .titulopaginadeinicio {
@@ -80,10 +103,8 @@ body {
       flex-wrap: wrap;
   padding-left: 20px;
   padding-right: 20px;
-  padding-top: 10px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .cartacamisetapsg, .cartapantalondeportivoadidas {
@@ -333,8 +354,8 @@ footer {
   background-size: cover;
   color: white;
   text-align: center;
-  margin-top: 10px;
-  padding: 20px;
+  padding-top: 30px;
+  padding-bottom: 50px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -359,7 +380,6 @@ footer .subtitulodelfooter {
 }
 
 footer .secciónfooter {
-  padding-top: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -369,6 +389,30 @@ footer .secciónfooter {
           flex-direction: row;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+}
+
+.homecalzados:hover {
+  background-color: black;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.shoescalzados:hover {
+  background-color: black;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.dresscalzados:hover {
+  background-color: black;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.contactocalzados:hover {
+  background-color: black;
+  background-size: cover;
+  border-radius: 5px;
 }
 
 .cartelerademarcas {
@@ -600,6 +644,94 @@ footer .secciónfooter {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.tituloindumentaria {
+  background-image: url("https://images.unsplash.com/photo-1635510239288-e03536e80ffd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 80px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-transition: 3s;
+  transition: 3s;
+  font-family: montserrat;
+  font-weight: bold;
+}
+
+.homeindumentaria:hover {
+  background-color: black;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.shoesindumentaria:hover {
+  background-color: black;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.dressindumentaria:hover {
+  background-color: black;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.contactoindumentaria:hover {
+  background-color: black;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.homecontacto:hover {
+  background-color: black;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.shoescontacto:hover {
+  background-color: black;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.dresscontacto:hover {
+  background-color: black;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.contactuscontacto:hover {
+  background-color: black;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.titulocontacto {
+  background-image: url("https://images.unsplash.com/photo-1635510239288-e03536e80ffd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 80px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-transition: 3s;
+  transition: 3s;
+  font-family: montserrat;
+  font-weight: bold;
 }
 
 .contacto {

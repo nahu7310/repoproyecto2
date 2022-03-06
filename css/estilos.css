@@ -42,7 +42,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0%;
-  margin-bottom: 10px;
 }
 
 .titulopaginadeinicio {
@@ -83,8 +82,7 @@ body {
   flex-wrap: wrap;
   padding-left: 20px;
   padding-right: 20px;
-  padding-top: 10px;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .cartacamisetapsg, .cartapantalondeportivoadidas {
@@ -273,8 +271,8 @@ footer {
   background-size: cover;
   color: white;
   text-align: center;
-  margin-top: 10px;
-  padding: 20px;
+  padding-top: 30px;
+  padding-bottom: 50px;
   align-items: center;
   align-content: center;
   transition: 8s;
@@ -290,10 +288,33 @@ footer .subtitulodelfooter {
   font-weight: bold;
 }
 footer .secciónfooter {
-  padding-top: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+
+.homecalzados:hover {
+  background-color: black;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.shoescalzados:hover {
+  background-color: black;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.dresscalzados:hover {
+  background-color: black;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.contactocalzados:hover {
+  background-color: black;
+  background-size: cover;
+  border-radius: 5px;
 }
 
 .cartelerademarcas {
@@ -442,6 +463,86 @@ footer .secciónfooter {
 .secciónindumentaria {
   display: flex;
   justify-content: center;
+}
+
+.tituloindumentaria {
+  background-image: url("https://images.unsplash.com/photo-1635510239288-e03536e80ffd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 80px;
+  align-items: center;
+  align-content: center;
+  transition: 3s;
+  font-family: montserrat;
+  font-weight: bold;
+}
+
+.homeindumentaria:hover {
+  background-color: black;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.shoesindumentaria:hover {
+  background-color: black;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.dressindumentaria:hover {
+  background-color: black;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.contactoindumentaria:hover {
+  background-color: black;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.homecontacto:hover {
+  background-color: black;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.shoescontacto:hover {
+  background-color: black;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.dresscontacto:hover {
+  background-color: black;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.contactuscontacto:hover {
+  background-color: black;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.titulocontacto {
+  background-image: url("https://images.unsplash.com/photo-1635510239288-e03536e80ffd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 80px;
+  align-items: center;
+  align-content: center;
+  transition: 3s;
+  font-family: montserrat;
+  font-weight: bold;
 }
 
 .contacto {

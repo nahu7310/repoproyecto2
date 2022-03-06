@@ -45,7 +45,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0%;
-    margin-bottom: 10px;
+    // margin-bottom: 10px;
 }
 .titulopaginadeinicio{
     padding-top: 60px;
@@ -81,8 +81,8 @@ body{
     flex-wrap: wrap;
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 10px;
-    justify-content: space-between;
+    // padding-top: 10px;
+    justify-content: space-around;
 }
 .cartacamisetapsg{
     background-color: orangered;
@@ -261,8 +261,8 @@ footer{
     background-size: cover;
     color: white;
     text-align: center;
-    margin-top: 10px;
-    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 50px;
     align-items: center;
     align-content: center;
     transition: 8s;
@@ -277,7 +277,7 @@ footer{
             font-weight: bold;
     }
     .secciónfooter{
-        padding-top: 20px;
+        // padding-top: 20px;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -285,6 +285,26 @@ footer{
 }
 
 // ----SHOES----//
+.homecalzados:hover{
+    background-color: rgb(0, 0, 0);
+        background-size: cover;
+        border-radius: 5px;
+}
+.shoescalzados:hover{
+    background-color: rgb(0, 0, 0);
+        background-size: cover;
+        border-radius: 5px;
+}
+.dresscalzados:hover{
+    background-color: rgb(0, 0, 0);
+        background-size: cover;
+        border-radius: 5px;
+}
+.contactocalzados:hover{
+    background-color: rgb(0, 0, 0);
+        background-size: cover;
+        border-radius: 5px;
+}
 .cartelerademarcas{
     // background-color: rgb(57, 196, 44);
     display: grid;
@@ -440,7 +460,78 @@ footer{
 .botonpantalonadidas{
     @extend .botoncamisetapsg
 }
+.tituloindumentaria{
+    background-image: url("https://images.unsplash.com/photo-1635510239288-e03536e80ffd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+    background-position: center;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 80px;
+    align-items: center;
+    align-content: center;
+    transition: 3s;
+    font-family: montserrat;
+    font-weight: bold;
+}
+.homeindumentaria:hover{
+    background-color: rgb(0, 0, 0);
+        background-size: cover;
+        border-radius: 5px;
+}
+.shoesindumentaria:hover{
+    background-color: rgb(0, 0, 0);
+        background-size: cover;
+        border-radius: 5px;
+}
+.dressindumentaria:hover{
+    background-color: rgb(0, 0, 0);
+        background-size: cover;
+        border-radius: 5px;
+}
+.contactoindumentaria:hover{
+    background-color: rgb(0, 0, 0);
+        background-size: cover;
+        border-radius: 5px;
+}
+
 // --contact us--//
+.homecontacto:hover{
+    background-color: rgb(0, 0, 0);
+        background-size: cover;
+        border-radius: 5px;
+}
+.shoescontacto:hover{
+    background-color: rgb(0, 0, 0);
+        background-size: cover;
+        border-radius: 5px;
+}
+.dresscontacto:hover{
+    background-color: rgb(0, 0, 0);
+        background-size: cover;
+        border-radius: 5px;
+}
+.contactuscontacto:hover{
+    background-color: rgb(0, 0, 0);
+        background-size: cover;
+        border-radius: 5px;
+}
+.titulocontacto{
+    background-image: url("https://images.unsplash.com/photo-1635510239288-e03536e80ffd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+    background-position: center;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 80px;
+    align-items: center;
+    align-content: center;
+    transition: 3s;
+    font-family: montserrat;
+    font-weight: bold;
+}
 .contacto{
     font-family: montserrat;
 }
