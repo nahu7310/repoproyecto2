@@ -8,11 +8,7 @@ body {
   background-color: black;
 }
 
-.navegador {
-  background-color: orangered;
-  padding: 20px;
-}
-.navegador .menusdelinicio {
+.barradenavegación .menusdelinicio {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -30,12 +26,14 @@ body {
 }
 
 .titulopaginadeinicio {
+  padding-top: 60px;
   color: white;
   font-family: montserrat;
   font-weight: bold;
 }
 
 .esloganpaginadeinicio {
+  padding-top: 10px;
   color: white;
   font-family: montserrat;
   font-weight: bold;
