@@ -8,6 +8,10 @@ body {
   background-color: black;
 }
 
+.barradenavegación {
+  background-color: rgba(0, 0, 0, 0.486);
+}
+
 .barradenavegación .menusdelinicio {
   display: -webkit-box;
   display: -ms-flexbox;

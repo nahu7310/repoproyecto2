@@ -8,6 +8,9 @@ body {
   background-color: black;
 }
 
+.barradenavegación {
+  background-color: rgba(0, 0, 0, 0.486);
+}
 .barradenavegación .menusdelinicio {
   display: flex;
   flex-direction: row;
@@ -15,7 +18,7 @@ body {
   align-items: center;
 }
 .barradenavegación .homeinicio:hover {
-  background-color: black;
+  background-color: #858585;
   background-size: cover;
   border-radius: 5px;
 }
