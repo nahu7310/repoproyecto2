@@ -1,5 +1,11 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Oswald:wght@200&display=swap");
+.hover, .barradenavegación .optNav:hover {
+  background-color: black;
+  background-size: cover;
+  border-radius: 5px;
+}
+
 * {
   margin: 0%;
 }
@@ -17,27 +23,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-.barradenavegación .homeinicio:hover {
-  background-color: #858585;
-  background-size: cover;
-  border-radius: 5px;
-}
-.barradenavegación .shoesinicio:hover {
-  background-color: black;
-  background-size: cover;
-  border-radius: 5px;
-}
-.barradenavegación .dressinicio:hover {
-  background-color: black;
-  background-size: cover;
-  border-radius: 5px;
-}
-.barradenavegación .contactoinicio:hover {
-  background-color: black;
-  background-size: cover;
-  border-radius: 5px;
-}
-
 .jumbotronpaginadeinicio {
   background-image: url("https://images.unsplash.com/photo-1461896836934-ffe607ba8211?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXRobGV0aWN8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60");
   height: 350px;
